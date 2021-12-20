@@ -13,23 +13,44 @@ body {
     color: #fff !important;
     font-size: 18px !important;
 }
+.navi{
+    background-color:rgb(56, 55, 55) !important ;
+}
+
 .anasehife{
-    background-image: url('/images/azersigorta.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-origin: initial;
-    height: 93.7vh;
-    background-size: cover;
+    /* background-image: url('/images/azersigorta.jpeg'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-origin: initial; */
+    /* height: 93.7vh; */
+    /* background-size: cover; */
     /* width: 2800px; */
-    background-color: red;
-    width: 100%;
-    height: 97%;
+    /* background-color: red; */
+    /* width: 100%; */
+    /* height: 97%; */
 }
 
 .anasehife>img{
     width: 100%;
     height: 878px;
 
+}
+
+.tedul{
+    list-style-type: none;
+    padding: 0 10px 0 0;
+    position: absolute;
+    display: none;
+    background-color: rgb(133, 139, 141);
+
+}
+.tedul>li>a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.tedul>li{
+    padding: 15px 10px;
 }
 @media screen and (max-width:991px) {
     nav{

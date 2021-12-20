@@ -19,7 +19,27 @@ app.get('/', (req, res)=>{
     })
 })
 
+app.get('/doktorantura', (req, res)=>{
+    res.render('doktorantura', {
+        title:'Doktorantura'
+    })
+})
+app.get('/elektronika', (req, res)=>{
+    res.render('elektronika',{
+        title:'Elektronika'
+    })
+})
+app.get('/robotika', (req, res)=>{
+    res.render('robotika', {
+        title:'Robotika'
+    })
+})
 
+app.get('/proqramlasdirma', (req, res)=>{
+    res.render('proqram', {
+        title:'Proqramlasdirma'
+    })
+})
 app.listen(8000, ()=>{
     console.log('Server 8000-ci portu dinleyir.')
 })
