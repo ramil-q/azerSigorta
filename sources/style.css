@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #3a565a; */
+    height: 100vh;
+    
+  }
+.navbar{
+      background-color:rgb(56, 55, 55) !important;
+      color: #fff !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 18px !important;
+}
+.anasehife{
+    background-image: url('/images/azersigorta.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: initial;
+    height: 93.7vh;
+    background-size: cover;
+    /* width: 2800px; */
+    background-color: red;
+    width: 100%;
+    height: 97%;
+}
+
+.anasehife>img{
+    width: 100%;
+    height: 878px;
+
+}
+@media screen and (max-width:991px) {
+    nav{
+        text-align: center;
+    }
+
+    .anasehife{
+        width: 100%;
+        height: 55%;
+    }
+    
+}
